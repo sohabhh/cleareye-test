@@ -37,6 +37,7 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 import { AddProfileComponent } from "./add-profile/add-profile.component";
 import { ListProfilesComponent } from "./list-profiles/list-profiles.component";
 import { ReactiveFormsModule } from "@angular/forms";
+import { CommonModule } from "@angular/common";
 
 
 @NgModule({
@@ -81,7 +82,8 @@ import { ReactiveFormsModule } from "@angular/forms";
     MatBadgeModule,
     MatBottomSheetModule,
     MatDividerModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    CommonModule
   ]
 })
 export class ProfileModule {}
